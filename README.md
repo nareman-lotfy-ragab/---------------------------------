@@ -107,22 +107,7 @@ lib/
 
 ---
 
-# 📷 Application Screens
 
-- Splash Screen
-- Login
-- Register
-- Dashboard
-- Weather
-- Farm Mapping
-- Soil Analysis
-- Crop Recommendation
-- AI Chat
-- Plant Disease Detection
-- Reports
-- Profile
-
----
 
 # ⚙ Getting Started
 

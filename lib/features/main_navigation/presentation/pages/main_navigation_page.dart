@@ -19,7 +19,7 @@ class MainNavigationPage extends StatelessWidget {
         onDestinationSelected: (index) => navigationShell.goBranch(index),
         backgroundColor: Colors.white,
         indicatorColor: AppColors.primaryGreen.withOpacity(0.1),
-        labelTextStyle: MaterialStateProperty.all(
+        labelTextStyle: WidgetStateProperty.all(
           const TextStyle(fontSize: 11),
         ),
         
