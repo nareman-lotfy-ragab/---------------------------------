@@ -1,0 +1,65 @@
+name: agri_sense_ai
+description: Agri-Sense AI - Intelligent agricultural companion app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  go_router: ^14.2.0
+  google_fonts: ^8.1.0
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  flutter_svg: ^2.0.10+1
+  http: ^1.1.0
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.5.0
+  pdf: ^3.10.0
+  path_provider: ^2.1.0
+  # permission_handler: ^11.4.0
+  share_plus: ^7.2.0
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  image_picker: ^1.2.2
+  timeago: ^3.7.1
+  permission_handler: ^11.3.1
+  # open_file: ^3.5.10
+  printing: ^5.13.4
+  uuid: ^4.0.0
+  flutter_markdown: ^0.6.18+1
+  google_generative_ai: ^0.4.7
+  file_saver: ^0.4.0
+  open_filex: ^4.7.0
+  dropdown_search: ^6.0.1
+
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/ChatGPT Image Jul 6, 2026, 08_16_47 AM.png"
+  min_sdk_android: 21
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ChatGPT Image Apr 29, 2026, 07_39_33 PM.png
+    - assets/images/WhatsApp Image 2026-05-01 at 2.35.59 AM.jpeg
+
+fonts:
+    - family: NotoSansArabic
+      fonts:
+        - asset: assets/fonts/NotoSansArabic-Regular.ttf

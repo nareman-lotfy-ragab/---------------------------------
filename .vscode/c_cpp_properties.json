@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/linux/flutter/ephemeral/.plugin_symlinks/**/linux/include",
+                "${workspaceFolder}/linux/flutter/ephemeral/.plugin_symlinks/**/include",
+                "C:/Users/HP/Desktop/apps/flutter/bin/cache/artifacts/engine/linux-x64/flutter_linux",
+                "C:/Users/HP/Desktop/apps/flutter/bin/cache/artifacts/engine/linux-x64-profile/flutter_linux",
+                "C:/Users/HP/Desktop/apps/flutter/bin/cache/artifacts/engine/linux-x64-release/flutter_linux"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
